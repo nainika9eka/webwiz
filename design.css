@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: lightblue; /* Initial background color */
+}
+
+nav {
+  background-color: #f0f0f0;
+  padding: 10px;
+  display: flex; /* Horizontal layout for navbar items */
+  justify-content: space-between; /* Space items evenly, push button to right */
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+
+h1 {
+  text-align: center; /* Center the heading */
+}
+.header-container {
+display: flex;
+flex-direction: column; /* Stack elements vertically */
+align-items: center; /* Center items horizontally */
+}
+
+#clock {
+  position: absolute; /* Allows precise positioning */
+  top: 60px; /* Adjust the distance from the top */
+  left: 50%; /* Place it in the center horizontally */
+  transform: translateX(-50%); /* Shift it back half its width to center it */
+}
+
+.gallery img {
+  width: 30%;
+  margin: 8px;
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
